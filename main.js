@@ -21,5 +21,5 @@ document.addEventListener('click', (event)=>{
 
     setTimeout(() => {
         circle.remove();
-    }, 5000);
+    }, 15000);
 })

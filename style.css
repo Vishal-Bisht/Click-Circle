@@ -29,7 +29,7 @@ body {
     text-align: center;
     opacity: 1;
     overflow: hidden;
-    animation: grow 5s forwards;
+    animation: grow 15s forwards;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.3), 0 0 40px rgba(255, 255, 255, 0.2), 0 0 60px rgba(255, 255, 255, 0.1);
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
     font-weight: bold;
