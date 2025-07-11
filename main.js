@@ -2,7 +2,7 @@ document.addEventListener('click', (event)=>{
     const circle = document.createElement('div');
     circle.className = 'circle';
 
-    const message = ['Lawde', 'Gandu', 'Chutiya', 'niks', 'indian','mutthal']
+    const message = ['Hi', 'Welcome', 'Hello', 'Yoo', 'Whatsapp','Thanks']
 
     circle.textContent = message[Math.floor(Math.random()*message.length)];
 
