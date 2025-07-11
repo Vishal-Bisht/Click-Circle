@@ -2,12 +2,13 @@ document.addEventListener('click', (event)=>{
     const circle = document.createElement('div');
     circle.className = 'circle';
 
-    const message = ['Hi', 'Hello', 'Welcome', 'Yoo', 'Whatsup','Thanks']
+    const message = ['Lawde', 'Gandu', 'Chutiya', 'niks', 'indian','mutthal']
 
     circle.textContent = message[Math.floor(Math.random()*message.length)];
 
     const X = event.clientX;
     const Y = event.clientY;
+   
 
     circle.style.left = `${X-25}px`;
     circle.style.top = `${Y-25}px`;
